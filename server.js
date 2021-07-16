@@ -34,3 +34,5 @@ app.use('/authors', authorRouter)
 app.use('/books', bookRouter)
 
 app.listen(process.env.PORT || 3000)
+
+// mongodb+srv://dbMichael:<password>@cluster0.fzkor.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
