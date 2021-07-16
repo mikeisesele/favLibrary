@@ -20,4 +20,5 @@ authorSchema.pre('remove', function(next) {
   })
 })
 
+// Author is the name of the table in mongo
 module.exports = mongoose.model('Author', authorSchema)
